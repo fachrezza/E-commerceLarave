@@ -1,9 +1,10 @@
+
+
 body {
-    background-color: #000000;
+    min-height: 100vh; /* Minimal tinggi body adalah 100% viewport height */
+    background: linear-gradient(to bottom right, #450505, #781015, #c34646, #c2242a, #560606);
     color: #fff;
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 .container {

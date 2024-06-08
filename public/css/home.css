@@ -1,9 +1,15 @@
-body {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: 'Arial', sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Mencegah scrolling horizontal */
+}
+
+body {
+    min-height: 100vh; /* Minimal tinggi body adalah 100% viewport height */
+    background: linear-gradient(to bottom right, #450505, #781015, #c34646, #c2242a, #560606);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
 }
 
 .container {
@@ -13,6 +19,20 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+.logonike-container {
+    display: flex; /* or 'display: grid;' */
+; /* or adjust as needed */
+    position: absolute;
+    left: 49%;
+    top: 10px;
+}
+
+.logonike {
+    width: 80%;
+    height: 80%;
+}
+
+
 
 .image-container {
     
@@ -37,6 +57,7 @@ body {
 .product:hover{
     z-index: 1;;
 }
+
 
 .item-bg {
     display: flex;
@@ -85,6 +106,9 @@ body {
         margin-left: 0%;
         width: auto;
     }
+}
+.logonike{
+    left: 0;
 }
 .logo .nike{
     display: flex;
@@ -148,16 +172,16 @@ body {
 }
 
 .button {
-    background-color: #000000;
+    background-color: #A61011;
     font-size: 28px;
     position: absolute;
-    left: 18.5%;
+    left: 16%;
     border: none;
     color: white;
     top: 70%;
     padding: 13px 38px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     display: inline-block;
     cursor: pointer;
     border-radius: 30px;
